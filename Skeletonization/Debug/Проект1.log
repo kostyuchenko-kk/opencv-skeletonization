@@ -1,0 +1,17 @@
+﻿Сборка начата 16.11.2022 15:18:15.
+     1>Проект "C:\Users\1\Desktop\СТЗ\лаба6_ЛИНИИ\Проект1.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Проект1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\OpenCV\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp "Исходный код.cpp"
+         Исходный код.cpp
+         main.cpp
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\1\Desktop\СТЗ\лаба6_ЛИНИИ\Debug\Skeletization.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\OpenCV\opencv\build\x86\vc12\lib opencv_world300d.lib opencv_ts300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\1\Desktop\СТЗ\лаба6_ЛИНИИ\Debug\Skeletization.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\1\Desktop\СТЗ\лаба6_ЛИНИИ\Debug\Skeletization.lib" /MACHINE:X86 Debug\main.obj
+         "Debug\Исходный код.obj"
+         Проект1.vcxproj -> C:\Users\1\Desktop\СТЗ\лаба6_ЛИНИИ\Debug\Skeletization.exe
+     1>Сборка проекта "C:\Users\1\Desktop\СТЗ\лаба6_ЛИНИИ\Проект1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.77

@@ -1,0 +1,21 @@
+﻿Сборка начата 16.11.2022 16:43:10.
+     1>Проект "C:\Users\1\Desktop\СТЗ\Skeletization\Проект1.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Проект1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\OpenCV\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp "Исходный код.cpp"
+         Исходный код.cpp
+         main.cpp
+     1>main.cpp(186): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>main.cpp(190): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>main.cpp(194): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>main.cpp(198): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\1\Desktop\СТЗ\Skeletization\x64\Debug\Skeletization.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\OpenCV\opencv\build\x64\vc12\lib opencv_world300d.lib opencv_ts300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\1\Desktop\СТЗ\Skeletization\x64\Debug\Skeletization.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\1\Desktop\СТЗ\Skeletization\x64\Debug\Skeletization.lib" /MACHINE:X64 x64\Debug\main.obj
+         "x64\Debug\Исходный код.obj"
+         Проект1.vcxproj -> C:\Users\1\Desktop\СТЗ\Skeletization\x64\Debug\Skeletization.exe
+     1>Сборка проекта "C:\Users\1\Desktop\СТЗ\Skeletization\Проект1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.68
